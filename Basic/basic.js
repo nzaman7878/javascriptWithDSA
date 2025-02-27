@@ -1,5 +1,5 @@
-// console.log("Nuruzzaman is a software developer");
+console.log("Nuruzzaman is a software developer");
 
-// const dt = new Date();
+const dt = new Date();
 
-// console.log(dt.getFullYear());
+console.log(dt.getFullYear());

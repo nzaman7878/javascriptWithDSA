@@ -1,7 +1,12 @@
 // console.log("Nuruzzaman is a software developer");
 
-const dt = new Date();
+// const dt = new Date();
 
-console.log(dt.getFullYear());
+// console.log(dt.getFullYear());
+
+var first = "Nuruz";
+var last = "Zaman";
+
+console.log(first + " " + last);
 
 

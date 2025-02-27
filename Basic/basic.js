@@ -4,9 +4,13 @@
 
 // console.log(dt.getFullYear());
 
-var first = "Nuruz";
-var last = "Zaman";
+// var first = "Nuruz";
+// var last = "Zaman";
 
-console.log(first + " " + last);
+// console.log(first + " " + last);
 
+var a = 10;
+console.log(a);
+var a = 20;
+console.log(a);
 

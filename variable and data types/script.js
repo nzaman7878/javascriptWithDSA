@@ -21,4 +21,9 @@
 
 // 4. Check the type of null and log it.
 
-console.log(typeof null);
+// console.log(typeof null);
+
+//5. Create a variable with a number as a string and log its type.
+
+var b = "25";
+console.log(typeof b);

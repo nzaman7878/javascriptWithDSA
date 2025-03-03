@@ -14,7 +14,11 @@
 
 // 3. Reassign a value to a variable declared with let and log the result.
 
-let b= 12;
-b = 32;
+// let b= 12;
+// b = 32;
 
-console.log(b);
+// console.log(b);
+
+// 4. Check the type of null and log it.
+
+console.log(typeof null);

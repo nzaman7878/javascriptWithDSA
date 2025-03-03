@@ -15,8 +15,13 @@
 // console.log(a);
 
 // create a variable holding your age wheter its greater than 18
-var age = 23;
 
-if (age > 18)
-    console.log(true)
-else console.log(false)
+// var age = 23;
+
+// if (age > 18)
+//     console.log(true)
+// else console.log(false)
+
+// Log the result of 100 / 0 and observe the output
+
+console.log(100 / 0);

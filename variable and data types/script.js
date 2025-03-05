@@ -40,5 +40,10 @@
 
 //8. Declare a variable without assiging a value and log its type
 
-let a;
+// let a;
+// console.log(a);
+
+//9. Create a variable with undefined and log its type.
+
+var a = undefined;
 console.log(a);

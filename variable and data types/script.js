@@ -25,5 +25,10 @@
 
 //5. Create a variable with a number as a string and log its type.
 
-var b = "25";
-console.log(typeof b);
+// var b = "25";
+// console.log(typeof b);
+
+//6.Use typeof to check the type of a boolean variable.
+
+let aa = true;
+console.log(typeof aa);

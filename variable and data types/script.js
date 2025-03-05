@@ -35,5 +35,10 @@
 
 //7. create three variables of types string,number and boolean and log their value.
 
-let a="HEllo",b= 13,c= true;
-console.log(a,b,c);
+// let a="HEllo",b= 13,c= true;
+// console.log(a,b,c);
+
+//8. Declare a variable without assiging a value and log its type
+
+let a;
+console.log(a);

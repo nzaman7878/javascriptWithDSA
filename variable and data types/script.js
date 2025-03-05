@@ -45,5 +45,10 @@
 
 //9. Create a variable with undefined and log its type.
 
-var a = undefined;
-console.log(a);
+// var a = undefined;
+// console.log(a);
+
+//10. Use const to create an array. Try reassigning the array and observe the error.
+
+const aa = [];
+aa = [];

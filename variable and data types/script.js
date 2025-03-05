@@ -30,5 +30,10 @@
 
 //6.Use typeof to check the type of a boolean variable.
 
-let aa = true;
-console.log(typeof aa);
+// let aa = true;
+// console.log(typeof aa);
+
+//7. create three variables of types string,number and boolean and log their value.
+
+let a="HEllo",b= 13,c= true;
+console.log(a,b,c);

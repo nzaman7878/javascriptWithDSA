@@ -50,5 +50,5 @@
 
 //10. Use const to create an array. Try reassigning the array and observe the error.
 
-const aa = [];
-aa = [];
+// const aa = [];
+// aa = [];

@@ -19,8 +19,18 @@
 
 // create  a for...of loop to log each character of the string "javascript "
 
-let str = "javascript";
+// let str = "javascript";
 
-for (let chacha of str){
-    console.log(chacha)
+// for (let chacha of str){
+//     console.log(chacha)
+// }
+
+//write a for loop that skips even numbers between 1 and 20
+
+for(var i =1;i<21; i++){
+    if(i%2 === 0){
+
+    } else{
+        console.log(i)
+    }
 }

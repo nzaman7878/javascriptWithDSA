@@ -86,13 +86,13 @@
 
 //Use a for....in loop that logs to iterate over an object and logs its   keys
 
-var obj = {
-    name: "Nuruz",
-    email:"nuruz@gmail.com",
-    age:"26"
+// var obj = {
+//     name: "Nuruz",
+//     email:"nuruz@gmail.com",
+//     age:"26"
 
-}
+// }
 
-for(let key in obj){
-    console.log(key);
-}
+// for(let key in obj){
+//     console.log(key);
+// }

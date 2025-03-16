@@ -12,6 +12,12 @@
 
 //Add two new elements to the start of an array using .unshift()
 
-var arr=[1,2,3,3];
-arr.unshift(0);
-arr.unshift(-1);
+// var arr=[1,2,3,3];
+// arr.unshift(0);
+// arr.unshift(-1);
+
+//Remove the last elements of an array and log the updated array
+
+var arr = [1,2,3,4,5];
+arr.pop();
+console.log(arr);

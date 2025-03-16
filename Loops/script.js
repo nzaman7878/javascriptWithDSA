@@ -47,8 +47,19 @@
 
 //Create a for  loop that calculates the factorial of 5;
 
-let fact = 5;
-for(var i =5;i>0;i--){
-    fact = fact * i;
+// let fact = 5;
+// for(var i =5;i>0;i--){
+//     fact = fact * i;
+// }
+// console.log(fact);
+
+//Write a nested loop to print a 3x3 grid of numbers'
+
+var hold = 1;
+for (var i =1; i<4; i++){
+    var str = "";
+    for(var j =1;j<4;j++){
+        str+= `${hold}`;
+    }
+
 }
-console.log(fact);

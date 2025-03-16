@@ -24,5 +24,11 @@
 
 //use .slice() to extract the first three elements of an array
 
-var arr = [1,2,3,4,5];
-console.log(arr.slice(0,3));
+// var arr = [1,2,3,4,5];
+// console.log(arr.slice(0,3));
+
+//Find the index of a specific element in an array using .indexof().
+
+var arr = [1, 2,3,4,5,6];
+
+console.log(arr.indexOf(3)) ;

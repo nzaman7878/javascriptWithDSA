@@ -27,10 +27,20 @@
 
 //write a for loop that skips even numbers between 1 and 20
 
-for(var i =1;i<21; i++){
-    if(i%2 === 0){
+// for(var i =1;i+<21; i++){
+//     if(i%2 === 0){
 
-    } else{
-        console.log(i)
-    }
+//     } else{
+//         console.log(i)
+//     }
+// }
+
+//use a dd...while loop to log numbers from 5 to 10
+
+var aa == 5;
+
+do{
+    console.log(aa);
+    aa--;
 }
+while(aa>0);

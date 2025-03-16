@@ -55,11 +55,23 @@
 
 //Write a nested loop to print a 3x3 grid of numbers'
 
-var hold = 1;
-for (var i =1; i<4; i++){
-    var str = "";
-    for(var j =1;j<4;j++){
-        str+= `${hold}`;
-    }
+// var hold = 1;
+// for (var i =1; i<4; i++){
+//     var str = "";
+//     for(var j =1;j<4;j++){
+//         str+= `${hold}`;
+//     }
 
+// }
+
+//use a for loop to reverse an array [1,2,3,4].
+
+var arr = [1,2,3,4];
+
+for (var i = 0; i<Math.floor(arr.lenght/2);i++){
+    var temp = arr[i];
+    arr[i] = arr[arr.lenght -1 - i];
+    arr[arr.length -i -1] = temp;
+    console.log(arr);
 }
+

@@ -18,6 +18,11 @@
 
 //Remove the last elements of an array and log the updated array
 
+// var arr = [1,2,3,4,5];
+// arr.pop();
+// console.log(arr);
+
+//use .slice() to extract the first three elements of an array
+
 var arr = [1,2,3,4,5];
-arr.pop();
-console.log(arr);
+console.log(arr.slice(0,3));

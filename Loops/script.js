@@ -37,10 +37,18 @@
 
 //use a dd...while loop to log numbers from 5 to 10
 
-var aa == 5;
+// var aa == 5;
 
-do{
-    console.log(aa);
-    aa--;
+// do{
+//     console.log(aa);
+//     aa--;
+// }
+// while(aa>0);
+
+//Create a for  loop that calculates the factorial of 5;
+
+let fact = 5;
+for(var i =5;i>0;i--){
+    fact = fact * i;
 }
-while(aa>0);
+console.log(fact);

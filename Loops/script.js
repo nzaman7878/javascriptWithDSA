@@ -66,12 +66,20 @@
 
 //use a for loop to reverse an array [1,2,3,4].
 
-var arr = [1,2,3,4];
+// var arr = [1,2,3,4];
 
-for (var i = 0; i<Math.floor(arr.lenght/2);i++){
-    var temp = arr[i];
-    arr[i] = arr[arr.lenght -1 - i];
-    arr[arr.length -i -1] = temp;
-    console.log(arr);
-}
+// for (var i = 0; i<Math.floor(arr.lenght/2);i++){
+//     var temp = arr[i];
+//     arr[i] = arr[arr.lenght -1 - i];
+//     arr[arr.length -i -1] = temp;
+//     console.log(arr);
+// }
 
+// Write a while loop that logs numbers from 1 to 100 divisible by 5.
+
+let num = 1;
+
+while(num<101){
+    if(num%5 === 0) console.log(num)
+        num ++;
+    }

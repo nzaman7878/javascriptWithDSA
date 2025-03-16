@@ -77,9 +77,22 @@
 
 // Write a while loop that logs numbers from 1 to 100 divisible by 5.
 
-let num = 1;
+// let num = 1;
 
-while(num<101){
-    if(num%5 === 0) console.log(num)
-        num ++;
-    }
+// while(num<101){
+//     if(num%5 === 0) console.log(num)
+//         num ++;
+//     }
+
+//Use a for....in loop that logs to iterate over an object and logs its   keys
+
+var obj = {
+    name: "Nuruz",
+    email:"nuruz@gmail.com",
+    age:"26"
+
+}
+
+for(let key in obj){
+    console.log(key);
+}

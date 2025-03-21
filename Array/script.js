@@ -29,6 +29,8 @@
 
 //Find the index of a specific element in an array using .indexof().
 
-var arr = [1, 2,3,4,5,6];
+// var arr = [1, 2,3,4,5,6];
 
-console.log(arr.indexOf(3)) ;
+// console.log(arr.indexOf(3)) ;
+
+// Sort the array of numbers [5,2,9,1] in ascending order
